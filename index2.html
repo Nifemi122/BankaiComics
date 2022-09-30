@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Banka! </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">Categories</a>
+            <a href="#arrivals">Trending</a>
+            <a href="#reviews">Classics</a>
+            <a href="#blogs">Bookmarks</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+<!-- <div class="featured-content"
+    style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('image/060.jpg');">
+    <h2>New Avengers</h2>
+    <p class="featured-desc">The Avengers are back, bigger and better...</p>
+    <button class="featured-button">READ</button>
+</div> -->
+<div class="slides-box">
+ 
+    <div class="slider">
+        <div class="slides">
+            <div class="slide first" id="first">
+                <h2>New Avengers</h2>
+                <p class="featured-desc">The Avengers are back, bigger and better...</p>
+                <button class="featured-button">READ</button> 
+            </div>
+            <div class="slide second">
+                <h2>Thor: God of Thunder</h2>
+                <p class="featured-desc">Read the Adventures of The Mighty Thor...</p>
+                <button class="featured-button">READ</button>
+            </div>
+            <div class="slide third">
+                <h2>Ultimate Spider-man: Miles Morales</h2>
+                <p class="featured-desc">A different Origin story, check it out...</p>
+                <button class="featured-button">READ</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="AllBanners">
+    <div id="primaryMainContainer">
+
+        <div id="contentBanners">
+            <!-- For Trending Now  -->
+                <div id="MainContainer">
+                        <div id="Heading-box">
+                            <div class="heading">Trending Now</div>
+                            <div class="viewAll">view all
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                       </div>
+
+                        <div id="Banners-container">
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_225923.jpg" alt="Fate stye night">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i></span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                  
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_225926.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_225929.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230632.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230636.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230639.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                <!-- For Trending Now  -->
+
+                <!-- Popular Shows  -->
+                <div id="MainContainer">
+                    <!-- <div id="insideMainContainer"> -->
+                        <div id="Heading-box">
+                            <div class="heading">Popular</div>
+                            <div class="viewAll">view all
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <div id="Banners-container">
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230642.jpg" alt="Fate stye night">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <!-- <span class="watch"><i class="far fa-eye"></i>  </span> -->
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230654.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i> </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230659.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i> </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230657.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i> </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230702.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230709.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i> 1</span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <!-- Popular Shows -->
+
+                <!-- Recently added  -->
+                <div id="MainContainer">
+                    <!-- <div id="insideMainContainer"> -->
+                        <div id="Heading-box">
+                            <div class="heading">Recently added</div>
+                            <div class="viewAll">view all
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+
+                        <div id="Banners-container">
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230711.jpg" alt="Fate stye night">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230713.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230716.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230810.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_230825.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_232956.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233003.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233006.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233336.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233341.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233442.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233449.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233452.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233755.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                            <div class="Image-Name">
+                                <img src="./image/img/20220905_233800.jpg" alt="">
+                                <span class="ep">06/16</span>
+                                <span class="comments"><i class="fas fa-comments"></i> </span>
+                                <span class="watch"><i class="far fa-eye"></i>  </span>
+                                <div class="content-type">
+                                    <span class="action">Action</span>
+                                    <span class="adventure">Adventure</span>
+                                </div>
+                                <div class="show-name">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+
+        </div>
+        <!-- Recently added -->
+
+
+        <!-- Latest News -->
+        <div id="LatestNews">
+            <div id="LatestNewsSection">
+                <div id="insideLatestNews">
+
+                    <div id="Heading-box2">
+                        <div class="headingInNews">Highest Rated</div>
+                        <div class="viewAllInNews">view all
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                 
+                <div id="LatestNewses">
+                    <div id="ImageOfNews" style="margin: 0;">
+                        <span class="epInNews">06/16</span>
+                            <!-- <span class="watchInNews"><i class="far fa-eye"></i>  </span> -->
+                        <img src="./image/img/20220905_231148.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/20220906_071225.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/20220905_231306.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/20220905_232825.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/20220905_231255.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/20220905_231300.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/20220905_233804.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/eternals.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/e2.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/us.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/na.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/na2.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/av.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                    <div id="ImageOfNews">
+                        <span class="epInNews">06/16</span>
+                            <span class="watchInNews"><i class="far fa-eye"></i>  </span>
+                        <img src="./image/img/sc.jpg" alt="">
+                        <span class="name">
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Latest News -->
+
+    </div>
+</div>
+
+</div>
